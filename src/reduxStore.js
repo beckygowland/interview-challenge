@@ -19,26 +19,42 @@ export function deleteFoodItem(id, position) {
 
 const initialState = {
     selectedItems: [],
+    summary: {},
 }
 
 export default function reducer(state = initialState, action) {
     switch (action.type) {
         case FOOD_SELECTED:
+            const selectedItems = [...state.selectedItems, { ...action.item }]
             return {
-                selectedItems: [...state.selectedItems, {...action.item}],
+                selectedItems,
+                summary: getDietarySummary(selectedItems),
             }
         case FOOD_DELETED:
             // There may be multiple items with the same id in the list.
             // Find the index of the item with the id and order position.
             const itemsWithId = state.selectedItems
-                .map(({id}, index) => ({id, index}))
-                .filter(({id}) => id === action.id)
+                .map(({ id }, index) => ({ id, index }))
+                .filter(({ id }) => id === action.id)
             const itemIndex = itemsWithId[action.position].index;
+            const selectedItem = state.selectedItems
+                .filter((item, index) => itemIndex !== index);
             return {
-                selectedItems: state.selectedItems
-                    .filter((item, index) => itemIndex !== index),
+                selectedItems: selectedItem,
+                summary: getDietarySummary(selectedItem),
             }
         default:
             return state
     }
+}
+
+function getDietarySummary(foodItems) {
+    let breakdown = {};
+    for (let item of foodItems) {
+        for (let dietaryItem of item.dietaries) {
+            breakdown[dietaryItem] = breakdown[dietaryItem] !== undefined ?
+                breakdown[dietaryItem] + 1 : 1;
+        }
+    }
+    return breakdown;
 }

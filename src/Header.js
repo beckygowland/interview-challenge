@@ -31,20 +31,9 @@ Header.propTypes = {
     summary: PropTypes.object.isRequired,
 };
 
-function getDietarySummary(foodItems) {
-    let breakdown = {};
-    for (let item of foodItems) {
-        for (let dietaryItem of item.dietaries) {
-            breakdown[dietaryItem] = breakdown[dietaryItem] !== undefined ?
-                breakdown[dietaryItem] + 1 : 1;
-        }
-    }
-    return breakdown;
-}
-
-export const mapStateToProps = ({ selectedItems }) => ({
+export const mapStateToProps = ({ selectedItems, summary }) => ({
     count: selectedItems.length,
-    summary: getDietarySummary(selectedItems)
+    summary,
 });
 
 export default connect(mapStateToProps, {})(Header);

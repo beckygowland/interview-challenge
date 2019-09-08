@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header , mapStateToProps } from './Header';
+import { Header } from './Header';
 
 import Enzyme, { shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
@@ -25,18 +25,4 @@ it('set proper count and dietary breakdown', () => {
     const count = summary[key] + 'x';
     expect(node.text()).toBe(count + key);
   })
-});
-
-it('mapStateToProps', () => {
-  const selectedItems = [
-    { id: 1, dietaries: ['a', 'b', 'c'] },
-    { id: 2, dietaries: ['b', 'c'] },
-    { id: 1, dietaries: ['c', 'd'] },
-  ]
-  const props = mapStateToProps({selectedItems})
-  expect(props.count).toBe(3);
-  expect(props.summary.a).toBe(1);
-  expect(props.summary.b).toBe(2);
-  expect(props.summary.c).toBe(3);
-  expect(props.summary.d).toBe(1);
 });
