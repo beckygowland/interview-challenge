@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { deleteFoodItem } from './reduxStore';
 
-class MenuPreviewItem extends React.PureComponent {
+export class MenuPreviewItem extends React.PureComponent {
 
     delete = () => {
         const { id, position, deleteFoodItem } = this.props;

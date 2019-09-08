@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
-class Header extends React.PureComponent {
+export class Header extends React.PureComponent {
     render() {
         const { count, summary } = this.props;
         return (
@@ -10,7 +10,7 @@ class Header extends React.PureComponent {
                 <div className="container">
                     <div className="row">
                         <div className="col-6 menu-summary-left">
-                            <span>{count} items</span>
+                            <span id="count">{count} items</span>
                         </div>
                         <div className="col-6 menu-summary-right">
                             {Object.keys(summary).map((sumItem) => (
@@ -42,7 +42,7 @@ function getDietarySummary(foodItems) {
     return breakdown;
 }
 
-const mapStateToProps = ({ selectedItems }) => ({
+export const mapStateToProps = ({ selectedItems }) => ({
     count: selectedItems.length,
     summary: getDietarySummary(selectedItems)
 });

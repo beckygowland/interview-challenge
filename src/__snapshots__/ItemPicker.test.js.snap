@@ -1,0 +1,1627 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ul
+        className="item-picker"
+>
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "v",
+                                "ve",
+                                "df",
+                                "gf",
+                                "n!",
+                              ]
+                }
+                id={1001}
+                name="Kale Caesar Pasta, Turmeric Satay Broccoli & Lemon Cashew Greens"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "gf",
+                                "df",
+                                "rsf",
+                              ]
+                }
+                id={1002}
+                name="Hake & Smoky Chickpeas, Brown Rice & Quinoa, Roasted Roots"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "gf",
+                                "df",
+                                "v",
+                                "ve",
+                                "n!",
+                              ]
+                }
+                id={1003}
+                name="Dill & Swiss Chard Potato Cakes, Summer Tabbouleh & Roasted Roots"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "df",
+                                "gf",
+                                "rsf",
+                                "n!",
+                              ]
+                }
+                id={1004}
+                name="Hake & Smoky Chickpeas, Herby Potatoes & Turmeric Satay Broccoli"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "gf",
+                                "df",
+                              ]
+                }
+                id={1005}
+                name="Cuban Beef, Brown Rice & Quinoa, Green Pepper & Butterbean Salad"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "gf",
+                                "df",
+                                "rsf",
+                                "n!",
+                              ]
+                }
+                id={1006}
+                name="Thai Chicken, Brown Rice & Quinoa, Lemon & Cashew Greens"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "gf",
+                                "df",
+                                "n!",
+                              ]
+                }
+                id={1007}
+                name="Cuban Beef, Herby Potatoes & Turmeric Satay Broccoli"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "gf",
+                                "df",
+                                "rsf",
+                                "n!",
+                              ]
+                }
+                id={1008}
+                name="Thai Chicken, Brown Rice & Quinoa & Turmeric Satay Broccolli"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "gf",
+                                "df",
+                              ]
+                }
+                id={1009}
+                name="Mackerel Salad Box"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "ve",
+                                "v",
+                                "gf",
+                                "df",
+                              ]
+                }
+                id={10010}
+                name="Pasta Salad Box"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={Array []}
+                id={10011}
+                name="Tuna Salad Box"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "gf",
+                                "v",
+                              ]
+                }
+                id={10012}
+                name="Coconut Blondie with Dark Chocolate"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "gf",
+                                "df",
+                              ]
+                }
+                id={10013}
+                name="Cinnamon Swirl Muffin"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "df",
+                                "gf",
+                                "n!",
+                                "v",
+                              ]
+                }
+                id={10014}
+                name="Apple, Date and Walnut Muffin"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "v",
+                                "df",
+                                "gf",
+                              ]
+                }
+                id={10015}
+                name="Blueberry and Banana Muffin"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "df",
+                                "ve",
+                                "gf",
+                              ]
+                }
+                id={10016}
+                name="Ombar Chocolate Bar - Dark 72%"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "ve",
+                                "gf",
+                              ]
+                }
+                id={10017}
+                name="Ombar Bar - Milk"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "v",
+                                "gf",
+                              ]
+                }
+                id={10018}
+                name="Dark Chocolate Brownie"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "ve",
+                                "df",
+                                "gf",
+                              ]
+                }
+                id={10019}
+                name="Mangajo Pomegranate"
+        />
+        <Connect(ItemPickerItem)
+                dietaries={
+                        Array [
+                                "ve",
+                                "v",
+                                "gf",
+                              ]
+                }
+                id={10020}
+                name="Mangajo Acai"
+        />
+</ul>,
+      "className": "col-4",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "v",
+                                    "ve",
+                                    "df",
+                                    "gf",
+                                    "n!",
+                                  ]
+            }
+            id={1001}
+            name="Kale Caesar Pasta, Turmeric Satay Broccoli & Lemon Cashew Greens"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "gf",
+                                    "df",
+                                    "rsf",
+                                  ]
+            }
+            id={1002}
+            name="Hake & Smoky Chickpeas, Brown Rice & Quinoa, Roasted Roots"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "gf",
+                                    "df",
+                                    "v",
+                                    "ve",
+                                    "n!",
+                                  ]
+            }
+            id={1003}
+            name="Dill & Swiss Chard Potato Cakes, Summer Tabbouleh & Roasted Roots"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "df",
+                                    "gf",
+                                    "rsf",
+                                    "n!",
+                                  ]
+            }
+            id={1004}
+            name="Hake & Smoky Chickpeas, Herby Potatoes & Turmeric Satay Broccoli"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "gf",
+                                    "df",
+                                  ]
+            }
+            id={1005}
+            name="Cuban Beef, Brown Rice & Quinoa, Green Pepper & Butterbean Salad"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "gf",
+                                    "df",
+                                    "rsf",
+                                    "n!",
+                                  ]
+            }
+            id={1006}
+            name="Thai Chicken, Brown Rice & Quinoa, Lemon & Cashew Greens"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "gf",
+                                    "df",
+                                    "n!",
+                                  ]
+            }
+            id={1007}
+            name="Cuban Beef, Herby Potatoes & Turmeric Satay Broccoli"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "gf",
+                                    "df",
+                                    "rsf",
+                                    "n!",
+                                  ]
+            }
+            id={1008}
+            name="Thai Chicken, Brown Rice & Quinoa & Turmeric Satay Broccolli"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "gf",
+                                    "df",
+                                  ]
+            }
+            id={1009}
+            name="Mackerel Salad Box"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "ve",
+                                    "v",
+                                    "gf",
+                                    "df",
+                                  ]
+            }
+            id={10010}
+            name="Pasta Salad Box"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={Array []}
+            id={10011}
+            name="Tuna Salad Box"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "gf",
+                                    "v",
+                                  ]
+            }
+            id={10012}
+            name="Coconut Blondie with Dark Chocolate"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "gf",
+                                    "df",
+                                  ]
+            }
+            id={10013}
+            name="Cinnamon Swirl Muffin"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "df",
+                                    "gf",
+                                    "n!",
+                                    "v",
+                                  ]
+            }
+            id={10014}
+            name="Apple, Date and Walnut Muffin"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "v",
+                                    "df",
+                                    "gf",
+                                  ]
+            }
+            id={10015}
+            name="Blueberry and Banana Muffin"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "df",
+                                    "ve",
+                                    "gf",
+                                  ]
+            }
+            id={10016}
+            name="Ombar Chocolate Bar - Dark 72%"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "ve",
+                                    "gf",
+                                  ]
+            }
+            id={10017}
+            name="Ombar Bar - Milk"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "v",
+                                    "gf",
+                                  ]
+            }
+            id={10018}
+            name="Dark Chocolate Brownie"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "ve",
+                                    "df",
+                                    "gf",
+                                  ]
+            }
+            id={10019}
+            name="Mangajo Pomegranate"
+/>,
+          <Connect(ItemPickerItem)
+            dietaries={
+                        Array [
+                                    "ve",
+                                    "v",
+                                    "gf",
+                                  ]
+            }
+            id={10020}
+            name="Mangajo Acai"
+/>,
+        ],
+        "className": "item-picker",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "1001",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "v",
+              "ve",
+              "df",
+              "gf",
+              "n!",
+            ],
+            "id": 1001,
+            "name": "Kale Caesar Pasta, Turmeric Satay Broccoli & Lemon Cashew Greens",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1002",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "gf",
+              "df",
+              "rsf",
+            ],
+            "id": 1002,
+            "name": "Hake & Smoky Chickpeas, Brown Rice & Quinoa, Roasted Roots",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1003",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "gf",
+              "df",
+              "v",
+              "ve",
+              "n!",
+            ],
+            "id": 1003,
+            "name": "Dill & Swiss Chard Potato Cakes, Summer Tabbouleh & Roasted Roots",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1004",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "df",
+              "gf",
+              "rsf",
+              "n!",
+            ],
+            "id": 1004,
+            "name": "Hake & Smoky Chickpeas, Herby Potatoes & Turmeric Satay Broccoli",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1005",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "gf",
+              "df",
+            ],
+            "id": 1005,
+            "name": "Cuban Beef, Brown Rice & Quinoa, Green Pepper & Butterbean Salad",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1006",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "gf",
+              "df",
+              "rsf",
+              "n!",
+            ],
+            "id": 1006,
+            "name": "Thai Chicken, Brown Rice & Quinoa, Lemon & Cashew Greens",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1007",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "gf",
+              "df",
+              "n!",
+            ],
+            "id": 1007,
+            "name": "Cuban Beef, Herby Potatoes & Turmeric Satay Broccoli",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1008",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "gf",
+              "df",
+              "rsf",
+              "n!",
+            ],
+            "id": 1008,
+            "name": "Thai Chicken, Brown Rice & Quinoa & Turmeric Satay Broccolli",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "1009",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "gf",
+              "df",
+            ],
+            "id": 1009,
+            "name": "Mackerel Salad Box",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10010",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "ve",
+              "v",
+              "gf",
+              "df",
+            ],
+            "id": 10010,
+            "name": "Pasta Salad Box",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10011",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [],
+            "id": 10011,
+            "name": "Tuna Salad Box",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10012",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "gf",
+              "v",
+            ],
+            "id": 10012,
+            "name": "Coconut Blondie with Dark Chocolate",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10013",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "gf",
+              "df",
+            ],
+            "id": 10013,
+            "name": "Cinnamon Swirl Muffin",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10014",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "df",
+              "gf",
+              "n!",
+              "v",
+            ],
+            "id": 10014,
+            "name": "Apple, Date and Walnut Muffin",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10015",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "v",
+              "df",
+              "gf",
+            ],
+            "id": 10015,
+            "name": "Blueberry and Banana Muffin",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10016",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "df",
+              "ve",
+              "gf",
+            ],
+            "id": 10016,
+            "name": "Ombar Chocolate Bar - Dark 72%",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10017",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "ve",
+              "gf",
+            ],
+            "id": 10017,
+            "name": "Ombar Bar - Milk",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10018",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "v",
+              "gf",
+            ],
+            "id": 10018,
+            "name": "Dark Chocolate Brownie",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10019",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "ve",
+              "df",
+              "gf",
+            ],
+            "id": 10019,
+            "name": "Mangajo Pomegranate",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "10020",
+          "nodeType": "class",
+          "props": Object {
+            "dietaries": Array [
+              "ve",
+              "v",
+              "gf",
+            ],
+            "id": 10020,
+            "name": "Mangajo Acai",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul
+          className="item-picker"
+>
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "v",
+                                        "ve",
+                                        "df",
+                                        "gf",
+                                        "n!",
+                                      ]
+                    }
+                    id={1001}
+                    name="Kale Caesar Pasta, Turmeric Satay Broccoli & Lemon Cashew Greens"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "gf",
+                                        "df",
+                                        "rsf",
+                                      ]
+                    }
+                    id={1002}
+                    name="Hake & Smoky Chickpeas, Brown Rice & Quinoa, Roasted Roots"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "gf",
+                                        "df",
+                                        "v",
+                                        "ve",
+                                        "n!",
+                                      ]
+                    }
+                    id={1003}
+                    name="Dill & Swiss Chard Potato Cakes, Summer Tabbouleh & Roasted Roots"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "df",
+                                        "gf",
+                                        "rsf",
+                                        "n!",
+                                      ]
+                    }
+                    id={1004}
+                    name="Hake & Smoky Chickpeas, Herby Potatoes & Turmeric Satay Broccoli"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "gf",
+                                        "df",
+                                      ]
+                    }
+                    id={1005}
+                    name="Cuban Beef, Brown Rice & Quinoa, Green Pepper & Butterbean Salad"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "gf",
+                                        "df",
+                                        "rsf",
+                                        "n!",
+                                      ]
+                    }
+                    id={1006}
+                    name="Thai Chicken, Brown Rice & Quinoa, Lemon & Cashew Greens"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "gf",
+                                        "df",
+                                        "n!",
+                                      ]
+                    }
+                    id={1007}
+                    name="Cuban Beef, Herby Potatoes & Turmeric Satay Broccoli"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "gf",
+                                        "df",
+                                        "rsf",
+                                        "n!",
+                                      ]
+                    }
+                    id={1008}
+                    name="Thai Chicken, Brown Rice & Quinoa & Turmeric Satay Broccolli"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "gf",
+                                        "df",
+                                      ]
+                    }
+                    id={1009}
+                    name="Mackerel Salad Box"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "ve",
+                                        "v",
+                                        "gf",
+                                        "df",
+                                      ]
+                    }
+                    id={10010}
+                    name="Pasta Salad Box"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={Array []}
+                    id={10011}
+                    name="Tuna Salad Box"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "gf",
+                                        "v",
+                                      ]
+                    }
+                    id={10012}
+                    name="Coconut Blondie with Dark Chocolate"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "gf",
+                                        "df",
+                                      ]
+                    }
+                    id={10013}
+                    name="Cinnamon Swirl Muffin"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "df",
+                                        "gf",
+                                        "n!",
+                                        "v",
+                                      ]
+                    }
+                    id={10014}
+                    name="Apple, Date and Walnut Muffin"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "v",
+                                        "df",
+                                        "gf",
+                                      ]
+                    }
+                    id={10015}
+                    name="Blueberry and Banana Muffin"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "df",
+                                        "ve",
+                                        "gf",
+                                      ]
+                    }
+                    id={10016}
+                    name="Ombar Chocolate Bar - Dark 72%"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "ve",
+                                        "gf",
+                                      ]
+                    }
+                    id={10017}
+                    name="Ombar Bar - Milk"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "v",
+                                        "gf",
+                                      ]
+                    }
+                    id={10018}
+                    name="Dark Chocolate Brownie"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "ve",
+                                        "df",
+                                        "gf",
+                                      ]
+                    }
+                    id={10019}
+                    name="Mangajo Pomegranate"
+          />
+          <Connect(ItemPickerItem)
+                    dietaries={
+                              Array [
+                                        "ve",
+                                        "v",
+                                        "gf",
+                                      ]
+                    }
+                    id={10020}
+                    name="Mangajo Acai"
+          />
+</ul>,
+        "className": "col-4",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "v",
+                                          "ve",
+                                          "df",
+                                          "gf",
+                                          "n!",
+                                        ]
+              }
+              id={1001}
+              name="Kale Caesar Pasta, Turmeric Satay Broccoli & Lemon Cashew Greens"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "gf",
+                                          "df",
+                                          "rsf",
+                                        ]
+              }
+              id={1002}
+              name="Hake & Smoky Chickpeas, Brown Rice & Quinoa, Roasted Roots"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "gf",
+                                          "df",
+                                          "v",
+                                          "ve",
+                                          "n!",
+                                        ]
+              }
+              id={1003}
+              name="Dill & Swiss Chard Potato Cakes, Summer Tabbouleh & Roasted Roots"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "df",
+                                          "gf",
+                                          "rsf",
+                                          "n!",
+                                        ]
+              }
+              id={1004}
+              name="Hake & Smoky Chickpeas, Herby Potatoes & Turmeric Satay Broccoli"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "gf",
+                                          "df",
+                                        ]
+              }
+              id={1005}
+              name="Cuban Beef, Brown Rice & Quinoa, Green Pepper & Butterbean Salad"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "gf",
+                                          "df",
+                                          "rsf",
+                                          "n!",
+                                        ]
+              }
+              id={1006}
+              name="Thai Chicken, Brown Rice & Quinoa, Lemon & Cashew Greens"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "gf",
+                                          "df",
+                                          "n!",
+                                        ]
+              }
+              id={1007}
+              name="Cuban Beef, Herby Potatoes & Turmeric Satay Broccoli"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "gf",
+                                          "df",
+                                          "rsf",
+                                          "n!",
+                                        ]
+              }
+              id={1008}
+              name="Thai Chicken, Brown Rice & Quinoa & Turmeric Satay Broccolli"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "gf",
+                                          "df",
+                                        ]
+              }
+              id={1009}
+              name="Mackerel Salad Box"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "ve",
+                                          "v",
+                                          "gf",
+                                          "df",
+                                        ]
+              }
+              id={10010}
+              name="Pasta Salad Box"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={Array []}
+              id={10011}
+              name="Tuna Salad Box"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "gf",
+                                          "v",
+                                        ]
+              }
+              id={10012}
+              name="Coconut Blondie with Dark Chocolate"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "gf",
+                                          "df",
+                                        ]
+              }
+              id={10013}
+              name="Cinnamon Swirl Muffin"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "df",
+                                          "gf",
+                                          "n!",
+                                          "v",
+                                        ]
+              }
+              id={10014}
+              name="Apple, Date and Walnut Muffin"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "v",
+                                          "df",
+                                          "gf",
+                                        ]
+              }
+              id={10015}
+              name="Blueberry and Banana Muffin"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "df",
+                                          "ve",
+                                          "gf",
+                                        ]
+              }
+              id={10016}
+              name="Ombar Chocolate Bar - Dark 72%"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "ve",
+                                          "gf",
+                                        ]
+              }
+              id={10017}
+              name="Ombar Bar - Milk"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "v",
+                                          "gf",
+                                        ]
+              }
+              id={10018}
+              name="Dark Chocolate Brownie"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "ve",
+                                          "df",
+                                          "gf",
+                                        ]
+              }
+              id={10019}
+              name="Mangajo Pomegranate"
+/>,
+            <Connect(ItemPickerItem)
+              dietaries={
+                            Array [
+                                          "ve",
+                                          "v",
+                                          "gf",
+                                        ]
+              }
+              id={10020}
+              name="Mangajo Acai"
+/>,
+          ],
+          "className": "item-picker",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "1001",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "v",
+                "ve",
+                "df",
+                "gf",
+                "n!",
+              ],
+              "id": 1001,
+              "name": "Kale Caesar Pasta, Turmeric Satay Broccoli & Lemon Cashew Greens",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1002",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "gf",
+                "df",
+                "rsf",
+              ],
+              "id": 1002,
+              "name": "Hake & Smoky Chickpeas, Brown Rice & Quinoa, Roasted Roots",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1003",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "gf",
+                "df",
+                "v",
+                "ve",
+                "n!",
+              ],
+              "id": 1003,
+              "name": "Dill & Swiss Chard Potato Cakes, Summer Tabbouleh & Roasted Roots",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1004",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "df",
+                "gf",
+                "rsf",
+                "n!",
+              ],
+              "id": 1004,
+              "name": "Hake & Smoky Chickpeas, Herby Potatoes & Turmeric Satay Broccoli",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1005",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "gf",
+                "df",
+              ],
+              "id": 1005,
+              "name": "Cuban Beef, Brown Rice & Quinoa, Green Pepper & Butterbean Salad",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1006",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "gf",
+                "df",
+                "rsf",
+                "n!",
+              ],
+              "id": 1006,
+              "name": "Thai Chicken, Brown Rice & Quinoa, Lemon & Cashew Greens",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1007",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "gf",
+                "df",
+                "n!",
+              ],
+              "id": 1007,
+              "name": "Cuban Beef, Herby Potatoes & Turmeric Satay Broccoli",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1008",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "gf",
+                "df",
+                "rsf",
+                "n!",
+              ],
+              "id": 1008,
+              "name": "Thai Chicken, Brown Rice & Quinoa & Turmeric Satay Broccolli",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1009",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "gf",
+                "df",
+              ],
+              "id": 1009,
+              "name": "Mackerel Salad Box",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10010",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "ve",
+                "v",
+                "gf",
+                "df",
+              ],
+              "id": 10010,
+              "name": "Pasta Salad Box",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10011",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [],
+              "id": 10011,
+              "name": "Tuna Salad Box",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10012",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "gf",
+                "v",
+              ],
+              "id": 10012,
+              "name": "Coconut Blondie with Dark Chocolate",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10013",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "gf",
+                "df",
+              ],
+              "id": 10013,
+              "name": "Cinnamon Swirl Muffin",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10014",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "df",
+                "gf",
+                "n!",
+                "v",
+              ],
+              "id": 10014,
+              "name": "Apple, Date and Walnut Muffin",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10015",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "v",
+                "df",
+                "gf",
+              ],
+              "id": 10015,
+              "name": "Blueberry and Banana Muffin",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10016",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "df",
+                "ve",
+                "gf",
+              ],
+              "id": 10016,
+              "name": "Ombar Chocolate Bar - Dark 72%",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10017",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "ve",
+                "gf",
+              ],
+              "id": 10017,
+              "name": "Ombar Bar - Milk",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10018",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "v",
+                "gf",
+              ],
+              "id": 10018,
+              "name": "Dark Chocolate Brownie",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10019",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "ve",
+                "df",
+                "gf",
+              ],
+              "id": 10019,
+              "name": "Mangajo Pomegranate",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "10020",
+            "nodeType": "class",
+            "props": Object {
+              "dietaries": Array [
+                "ve",
+                "v",
+                "gf",
+              ],
+              "id": 10020,
+              "name": "Mangajo Acai",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "ul",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

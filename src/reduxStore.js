@@ -28,8 +28,8 @@ export default function reducer(state = initialState, action) {
                 selectedItems: [...state.selectedItems, {...action.item}],
             }
         case FOOD_DELETED:
-            // There may be multiple items with the same id.
-            // Find the index of the item with the id and order
+            // There may be multiple items with the same id in the list.
+            // Find the index of the item with the id and order position.
             const itemsWithId = state.selectedItems
                 .map(({id}, index) => ({id, index}))
                 .filter(({id}) => id === action.id)

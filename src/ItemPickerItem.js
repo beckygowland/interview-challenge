@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { addFoodItem } from './reduxStore';
 
-class Item extends React.PureComponent {
+export class ItemPickerItem extends React.PureComponent {
 
     addToMenu = () => {
         const { id, name, dietaries, addFoodItem } = this.props;
@@ -25,14 +25,14 @@ class Item extends React.PureComponent {
     }
 }
 
-Item.propTypes = {
+ItemPickerItem.propTypes = {
     id: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
     dietaries: PropTypes.array,
     addFoodItem: PropTypes.func.isRequired,
 };
 
-Item.defaultProps = {
+ItemPickerItem.defaultProps = {
     dietaries: [],
 };
 
@@ -40,4 +40,4 @@ const mapDispatchToProps = {
     addFoodItem,
 };
 
-export default connect(() => ({}), mapDispatchToProps)(Item);
+export default connect(() => ({}), mapDispatchToProps)(ItemPickerItem);

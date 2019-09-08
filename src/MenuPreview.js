@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import MenuPreviewItem from './MenuPreviewItem';
 
-class MenuPreview extends React.PureComponent {
+export class MenuPreview extends React.PureComponent {
 
     render() {
         const { selectedItems } = this.props;
@@ -26,7 +26,7 @@ MenuPreview.propTypes = {
     selectedItems: PropTypes.array.isRequired,
 };
 
-const mapStateToProps = ({ selectedItems }) => {
+export const mapStateToProps = ({ selectedItems }) => {
     // we need a unique key for each menu item, and since the
     // same menu item can be added multiple times, the position/order
     // will be calculated in relation to the items with the same id
