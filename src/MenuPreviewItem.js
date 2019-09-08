@@ -1,43 +1,45 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { addFoodItem } from './reduxStore';
+import { deleteFoodItem } from './reduxStore';
 
-class Item extends React.PureComponent {
+class MenuPreviewItem extends React.PureComponent {
 
-    addToMenu = () => {
-        const { id, name, dietaries, addFoodItem } = this.props;
-        addFoodItem({id, name, dietaries})
+    delete = () => {
+        const { id, position, deleteFoodItem } = this.props;
+        deleteFoodItem(id, position)
     }
 
     render() {
         const { name, dietaries } = this.props;
         return (
-            <li className="item" onClick={this.addToMenu}>
+            <li className="item">
                 <h2>{name}</h2>
                 <p>
                     {dietaries.map((dietary) =>
                         <span key={dietary} className="dietary">{dietary}</span>
                     )}
                 </p>
-            </li>
+                <button className="remove-item" onClick={this.delete}>x</button>
+            </li> 
         );
     }
 }
 
-Item.propTypes = {
+MenuPreviewItem.propTypes = {
     id: PropTypes.number.isRequired,
+    position: PropTypes.number.isRequired,
     name: PropTypes.string.isRequired,
     dietaries: PropTypes.array,
-    addFoodItem: PropTypes.func.isRequired,
+    deleteFoodItem: PropTypes.func.isRequired,
 };
 
-Item.defaultProps = {
+MenuPreviewItem.defaultProps = {
     dietaries: [],
 };
 
 const mapDispatchToProps = {
-    addFoodItem,
+    deleteFoodItem,
 };
 
-export default connect(() => ({}), mapDispatchToProps)(Item);
+export default connect(() => ({}), mapDispatchToProps)(MenuPreviewItem);
